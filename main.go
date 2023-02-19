@@ -34,7 +34,7 @@ func (s *Server) ReadLoop(ws *websocket.Conn) {
 				break
 			}
 			fmt.Println("read error:", err)
-			// if return in this step the server goes down
+
 			continue
 		}
 
